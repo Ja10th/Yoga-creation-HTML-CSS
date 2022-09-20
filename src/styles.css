@@ -9,6 +9,7 @@ header {
 p {
   font-weight: bold;
   font-size: 13px;
+  color:gray;
 }
 h2 {
   font-size: 25px;
@@ -16,6 +17,7 @@ h2 {
 }
 nav {
   position: fixed !important;
+  z-index:100000;
 }
 .nav-items {
   margin-left: 80px !important;
@@ -30,7 +32,7 @@ nav {
 }
 .navnav {
   background: #fff !important;
-  border-bottom-right-radius: 80px;
+  width:100%;
 }
 .image1 {
   height: 450px;
@@ -97,6 +99,11 @@ nav {
   margin-top: 20px;
   padding-right: 50px;
   margin-left: 180px;
+}
+.main-btn:hover {
+  background: linear-gradient(to right, rgb(32, 5, 58), rgb(168, 128, 205));
+  border-radius: 40px;
+  border: none;
 }
 .first {
   height: 400px;
@@ -414,6 +421,10 @@ nav {
   background-size: cover;
   background-position: center;
 }
+.main-footer .header-cust{
+  color:white !important;
+  text-shadow: none !important;
+}
 .partt2 {
   height: 250px;
   width: 400px;
@@ -517,6 +528,10 @@ nav {
   margin-left: 150px;
   color: #fff;
   margin-right: 50px;
+}
+.main-footer p {
+  color:whitesmoke !important;
+  font-weight:normal;
 }
 .footer-logo {
   height: 100px;
